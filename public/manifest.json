@@ -1,11 +1,25 @@
 {
   "name": "Central de Apps",
   "short_name": "Central",
+  "description": "Central de atalhos para Meus Apps",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#F8F7FF",
   "theme_color": "#F8F7FF",
   "icons": [
+    {
+      "src": "/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
     {
       "src": "/icons/central-icon-192.png",
       "sizes": "192x192",
